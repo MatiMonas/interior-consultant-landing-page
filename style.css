@@ -58,7 +58,7 @@ PANTALA DE ESCRITORIO GRANDE - LARGE (LG)
         text-decoration: none;
         margin-right: 86px;
         font-weight: 500;
-        
+
     }
 
     .link-items li:hover{
@@ -98,8 +98,8 @@ PANTALA DE ESCRITORIO GRANDE - LARGE (LG)
 
     .img__container__floating-box{
         position: absolute;
-        bottom: -25%;
-        right: 3%;
+        margin-left: 241px;
+        margin-top: -72px;
         box-shadow: 0px 2px 7px rgb(13,12,12);
         max-width: 367px;
         width: 100%;
