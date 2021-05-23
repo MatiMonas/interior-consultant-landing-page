@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #181719 ;
+    /* border: 1px solid white; */
+    color: white;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none
+    ;
+}
+
+.lora{
+    font-family: 'Lora', serif; 
+}
+
+.montserrat{
+    font-family:'Montserrat', sans-serif;
+
+}
+
+.crimsom{
+    font-family: 'Crimson Pro', serif;
+}
+
+.container{
+    position:relative;
+    margin: auto;
+    width: 100%;
+    height: auto;       
+}
+
+.row{
+    position:relative;
+    margin: auto;
+    width: 100%;
+    height: auto; 
+    clear:both;
+    display: table;  
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 20px;
+}
+
+.no-padding{
+    padding:0;
+}
