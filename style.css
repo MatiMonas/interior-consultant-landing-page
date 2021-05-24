@@ -68,7 +68,7 @@
         text-decoration: none;
         /* margin-right: 86px; */
         font-weight: 500;
-        transition: 0.1s;
+        transition: 0.15;
         height: 45px;
         display: flex;
         text-align: center;
@@ -78,7 +78,7 @@
 
     .link-items li:hover{
         border-bottom: 2px solid white ;
-        font-weight: 700;
+       
 
     }
 
@@ -285,7 +285,7 @@ PANTALA DE ESCRITORIO GRANDE - LARGE (LG)
 
     .link-items li:hover{
         border-bottom: 2px solid white ;
-        font-weight: 700;
+        
 
     }
 
@@ -492,8 +492,7 @@ PANTALA DE ESCRITORIO MEDIANA- MEDIANO (MD)
 
     .link-items li:hover{
         border-bottom: 2px solid white ;
-        font-weight: 700;
-
+        
     }
 
     
@@ -700,7 +699,7 @@ PANTALA DE TABLET - SMALL (SM)
 
     .link-items li:hover{
         border-bottom: 2px solid white ;
-        font-weight: 700;
+        
 
     }
 
