@@ -1044,7 +1044,9 @@ PANTALA DE CELULAR - EXTRASMALL (xs)
         display: none !important;
     }
 
-
+    .show-xs{
+        display: inline !important;
+    }
 
 
 }
