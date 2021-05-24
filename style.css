@@ -133,7 +133,7 @@
     }
 
     .img-box{
-        width: 1000px
+        width: 800px
     }
 
     .img-box img{
@@ -144,7 +144,7 @@
 
     .img__container__floating-box{
         position: absolute;
-        margin-left: 520px;
+        margin-left: 330px;
         margin-top: -72px;
         box-shadow: 0px 2px 7px rgb(13,12,12);
         max-width: 430px;
