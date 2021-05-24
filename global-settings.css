@@ -1,6 +1,5 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0;    
     background-color: #181719 ;
     /* border: 1px solid white; */
     color: white;
@@ -8,6 +7,10 @@
     text-decoration: none;
     list-style: none
     ;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 .lora{
@@ -41,7 +44,7 @@
 
 [class*="col-"]{
     float: left;
-    /* padding: 20px; */
+    padding: 20px;
 }
 
 .no-padding{
