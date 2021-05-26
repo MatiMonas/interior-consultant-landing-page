@@ -850,31 +850,38 @@ PANTALA DE CELULAR - EXTRASMALL (xs)
         padding: 0%!important;
     }
 
-    .nav-bar{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        
-        margin:0%
+    body{
+        animation: fadeIn 0.3s ease;
     }
-
-    .nav-bar-row{
-        display: flex !important;
-        margin-top: 10px !important;
-        margin-left: 0% !important;
-        align-items: center;
-        
-    }
+    
 
     .burger{
         display: flex;
         align-items: flex-end;
         justify-content: flex-end;
+        border: none;
+        background-color: none;
     }
 
     .fa-bars{
         font-size: 25px;
+         border: none;
+        background-color: none;
         
+    }
+
+    .cross{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        border: none;
+        background-color: none;
+    }
+
+    .fa-times{
+        font-size: 30px;
+         border: none;
+        background-color: none;
     }
    
 
@@ -884,34 +891,52 @@ PANTALA DE CELULAR - EXTRASMALL (xs)
        padding: 0.6em;       
        font-size: 14px;
        font-weight: 200;
-
+       margin-top: 19px;
+       animation: fadeIn 0.3s ease;
    }
 
     .container-link-items{
-        margin-right: 0%;        
         display: flex;
         align-items: center;
-        justify-content: flex-end;
+        justify-content: center;
+        margin-top:115px;
+        margin-left:130px;
         
+       
     }
 
     .link-items{
         display: flex;
+        flex-direction: column;
         align-items: center;
-        justify-content: flex-end;
+       
         font-size: 18px;
         padding: 0;
+        animation: fadeIn 0.3s ease
         
     }
-  
-    .ul-li-margin{
-        margin-right: 86px;
+
+    @keyframes fadeIn {
+       from {
+           opacity: 0;
+       } 
+       to{
+           opacity: 1;
+       }
+        
     }
+
+    .link-items li:hover{       
+        font-weight: 800px !important;
+        border-bottom: 2px solid white;
+    }
+  
+   
 
     .link-items li{
         cursor: default;
         text-decoration: none;
-        
+        margin-top: 20px;
         font-weight: 500;
         transition: 0.1s;
         height: 45px;
@@ -921,17 +946,13 @@ PANTALA DE CELULAR - EXTRASMALL (xs)
 
     }
 
-    .link-items li:hover{
-        border-bottom: 2px solid white ;
-        font-weight: 700;
-
-    }
+   
 
 
     .main__container{
         display: flex;
         flex-direction: column;
-        
+        animation: fadeIn 0.3s ease
     }
 
    .text__container{
